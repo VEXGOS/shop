@@ -1,11 +1,8 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-  $END$
+  <h1>Product list</h1>
+  <head>
+    <title>Список продуктів</title>
+  </head>
 </template>
-
-<style scoped>
-
-</style>
+<script setup lang="ts">
+</script>
