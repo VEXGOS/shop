@@ -34,7 +34,7 @@ const columns = [{
   label: 'Фото',
 }];
 
-const { data, pending } = await useLazyAsyncData<IProductResponse>('products', () => $fetch(`https://dummyjson.com/products?limit=${100}`));
+const { data, pending } = await useLazyAsyncData<IProductResponse>('products', () => $fetch(`https://dummyjson.com/products?limit=${150}`));
 
 const products = ref<IProduct[]>(data.value ? data.value.products : []);
 const total = ref(data.value ? data.value.total : 0);
