@@ -80,7 +80,7 @@ const rows = computed(() => {
 </script>
 
 <template>
-  <title>List of student 0.5</title>
+  <title>Магазин продуктів</title>
 
   <UCard class="w-full" :ui="{
         base: '',
