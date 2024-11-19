@@ -90,7 +90,7 @@ const rows = computed(() => {
         footer: { padding: 'p-4' }
     }">
     <div class="flex px-3 py-3.5 border-b border-gray-200 dark:border-gray-700">
-      <UInput v-model="q" placeholder="Filter people..." />
+      <UInput v-model="q" placeholder="Фільтр продуктів..." />
     </div>
 
     <UTable v-model:sort="sort" :rows="rows" :columns="columns" :loading="pending"
